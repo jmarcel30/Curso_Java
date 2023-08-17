@@ -1,7 +1,9 @@
 package variaveis;
 
+
 public class Float {
 	public static void main(String[] args) {
+		
 	double horas = 13;
 	
 	System.out.println("Agora são exatamente: " + horas  +  "Horas");
@@ -12,6 +14,8 @@ public class Float {
 	double nota4 = 9;
 	
 	double total = (nota1 + nota2 + nota3 + nota4) / 4;
+	
+	
 	
 	System.out.println("Sua medi final é:" + total);
 }
