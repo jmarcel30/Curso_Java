@@ -7,12 +7,14 @@ public class Classe {
         Jogador j1 = new Jogador(++num);
         Jogador j2 = new Jogador(++num);
         Jogador j3 = new Jogador(++num); 
-
-        j1.vidas = 100;
+       j1.setVidas(100);
+       System.out.printf("%nVidas do jogador 1:%d",j1.getVidas());
+       System.out.printf("%nVidas do jogador 1:%d",j2.getVidas());
+       System.out.printf("%nVidas do jogador 1:%d",j3.getVidas());
         
         // j1.num = 10;
 
-        //  System.out.println(j1.num);
+        //  System.out.println(j1.num);  
 
      
 
